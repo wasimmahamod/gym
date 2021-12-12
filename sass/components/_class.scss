@@ -1,0 +1,87 @@
+#class-part{
+    margin-top: 70px;
+    .colorful-tab-wrapper{
+        width: 100%;
+        margin: 30px auto;
+        background: #ffffff;
+        padding: 20px;
+        box-sizing: border-box;
+        overflow: hidden;
+        position: relative;
+        transition:.4s;
+    .colorful-tab-content{
+        .one{
+            width: 19%;
+            background: #f1f1f1;
+            text-align: center;
+            box-sizing: border-box;
+            padding:50px 0;
+            transition: .4s;
+            margin-top: 10px;
+            margin-left: 10px;
+            h2{
+                color:#222222;
+                font-family: 'Oswald', sans-serif;
+                font-size: 16px;
+                text-transform: capitalize;
+                font-size: 400;
+            }
+            h3{
+                color:#222222;
+                font-family: 'Open Sans', sans-serif;
+                font-size: 16px;
+                text-transform: capitalize;
+                font-size: 400;
+            }
+            &:hover{
+                background: #e23e38;
+            }
+            &:hover h2{
+                color:#ffffff
+            }
+            &:hover h3{
+                    color:#ffffff
+               
+            }
+            &:hover img{
+                filter: grayscale(1)
+            }
+        
+        }
+    }
+    &::before{
+        color:black;
+    font-family: 'Oswald', sans-serif;
+    }
+    }
+    
+    .colorful-tab-menu-item{
+        a{
+            display: block;
+            text-decoration: none;
+            font-family: 'Oswald', sans-serif;
+            color: #222222;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 18px;
+            transition: .4s;
+        }
+      
+    }
+    .active {
+        a {
+            display: block;
+            text-decoration: none;
+            font-family: 'Oswald', sans-serif;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 18px;
+            transition: .4s;
+            background: #e23e38;
+        }
+    }
+   .colorful-tab-menu {
+        background: #f1f1f1
+    }
+}

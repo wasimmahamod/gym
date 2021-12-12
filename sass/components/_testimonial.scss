@@ -1,0 +1,82 @@
+#testimonial-part{
+    margin-top: 70px;
+    background:url(../images/testimonal.png) no-repeat center;
+    background-size:cover;
+    .overlay{
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0,.8);
+        padding: 50px 0;
+        .slider{
+            width: 100%;
+            margin: 0 10px;
+            .t-top{
+                .img{
+                    width: 20%;
+                }
+                .name{
+                    width: 80%;
+                    h2{
+                        font-family: 'Oswald', sans-serif;
+                        font-size: 14px;
+                        color:#ffffff;
+                        font-weight: 400;
+                        margin-bottom: 10px;
+                    
+                    }
+                    h3{
+                        font-family: 'Oswald', sans-serif;
+                        font-size: 14px;
+                        color:#ffffff;
+                        font-weight: 400;
+                        margin-bottom: 10px;
+                    }
+                    ul{
+                        li{
+                            &:first-child{
+                                margin-left: -35px;
+                            }
+                            display: inline-block;
+                            i{
+                                color:#e23e38
+                            }
+                        }
+                    }
+                }
+            }
+            p{
+                font-family: 'Open Sans', sans-serif;
+                font-size: 13px;
+                color:#ffffff;
+                margin-bottom: 30px;
+                font-weight: 500;
+                width:100%;
+            }
+        }
+         
+    }
+    .slick-dots{
+        position: absolute;
+        bottom: -40px;
+        left: 50%;
+        transform: translateX(-50%);
+        li{
+            display: inline-block;
+            margin: 0 10px;
+            button{
+                font-size: 0;
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                background: transparent;
+                border:2px solid #ffffff;
+               
+            }
+        }
+        .slick-active button{
+
+            background: #e23e38;
+            border-color: #e23e38;
+            }
+      }
+}

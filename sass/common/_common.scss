@@ -1,0 +1,22 @@
+a{
+    text-decoration: none;
+}
+body{
+    overflow-x: hidden;
+}
+li{
+    list-style: none;
+}
+.title{
+    text-align: center;
+    margin-bottom: 20px;
+    h2{
+        font-size: 22px;
+        font-weight: 400;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+    }
+}
+.main{
+    display: flex;
+}
