@@ -1,0 +1,290 @@
+@media (min-width:320px)and (max-width:575px){
+    .navbar .baka {
+        width: 40%;
+    }
+    .navbar .baka img {
+        width: 100%;
+    }
+    .navbar-toggler{
+        background: #e23e38;
+        transition: .4s;
+    }
+    .navbar-light .navbar-toggler {
+        color: #000;
+        border-color: rgba(0,0,0,.1);
+    }
+    .navbar-toggler:hover{
+        background: #f1f1f1;
+    }
+    nav ul{
+        background: #e23e38;
+    }
+    #banner-part .banner-slider .banner .overlay p {
+        width: auto;
+    }
+    #about-part .left {
+        margin-bottom: 20px;
+    }
+    #about-part .right p {
+        width: auto;
+    }
+    #about-part .right .p2 {
+        width: auto;
+    }
+    #testimonial-part .overlay .slider .t-top .img {
+        width: 40%;
+    }
+    #counter-part .overlay .item h1 {
+       font-size: 30px;
+    }
+    #counter-part .overlay .item p {
+        font-size: 14px;
+    }
+    #class-part .colorful-tab-wrapper .colorful-tab-content .one {
+        padding: 0;
+    }
+    footer .overlay .f-down h1::before {
+      display: none;
+    }
+    #gallery-part {
+      margin-top: 20px;
+    }
+    #about-part {
+        margin-top: 20px;
+    }
+    #team-part {
+        margin-top: 20px;
+    }
+    #testimonial-part {
+        margin-top: 20px;
+      
+    }
+    #membership-part {
+        margin-top: 20px;
+    }
+    #class-part {
+        margin-top: 20px;
+    }
+    #class-part .colorful-tab-wrapper .colorful-tab-content .main{
+        flex-wrap: wrap;
+    }
+    #class-part .colorful-tab-wrapper .colorful-tab-content .one{
+        width: 45%;
+    }
+    #class-part .colorful-tab-menu {
+        padding: 0;
+    }
+    #slider-part {
+        margin-top: 20px;
+    }
+    footer {
+        margin-top: 20px;
+    }
+    footer .overlay .c-one .left {
+        width: 50%;
+    }
+    footer .overlay .c-one .right {
+        width: 50%;
+    }
+    footer .overlay .c-one .left-one {
+        width: 20%;
+    }
+    footer .overlay .c-one ul li:first-child {
+        margin-left: 10px;
+    }
+}
+@media (min-width:576px)and (max-width:767px){
+    .navbar .baka {
+        width: 35%;
+    }
+    .navbar .baka img {
+        width: 100%;
+    }
+    .navbar-toggler{
+        background: #e23e38;
+        transition: .4s;
+    }
+    .navbar-light .navbar-toggler {
+        color: #000;
+        border-color: rgba(0,0,0,.1);
+    }
+    .navbar-toggler:hover{
+        background: #f1f1f1;
+    }
+    nav ul{
+        background: #e23e38;
+    }
+    #banner-part .banner-slider .banner .overlay p {
+        width: auto;
+    }
+    #about-part .left {
+        margin-bottom: 20px;
+    }
+    #about-part .right p {
+        width: auto;
+    }
+    #about-part .right .p2 {
+        width: auto;
+    }
+    #testimonial-part .overlay .slider .t-top .img {
+        width: 40%;
+    }
+    #testimonial-part .overlay .slider .t-top .img img {
+        width: 100%;
+    }
+    #testimonial-part .overlay .slider .t-top .name {
+        width: 50%;
+        text-align: center;
+    }
+    
+    #counter-part .overlay .item h1 {
+       font-size: 30px;
+    }
+    #counter-part .overlay .item p {
+        font-size: 14px;
+    }
+    #class-part .colorful-tab-wrapper .colorful-tab-content .one {
+        padding: 0;
+    }
+    footer .overlay .f-down h1::before {
+      display: none;
+    }
+    #gallery-part {
+      margin-top: 20px;
+    }
+    #about-part {
+        margin-top: 20px;
+    }
+    #team-part {
+        margin-top: 20px;
+    }
+    #testimonial-part {
+        margin-top: 20px;
+      
+    }
+    #membership-part {
+        margin-top: 20px;
+    }
+    #class-part {
+        margin-top: 20px;
+    }
+    #slider-part {
+        margin-top: 20px;
+    }
+    footer {
+        margin-top: 20px;
+    }
+    footer .overlay .c-one .left {
+        width: 50%;
+    }
+    footer .overlay .c-one .right {
+        width: 50%;
+    }
+    footer .overlay .c-one .left-one {
+        width: 20%;
+    }
+    footer .overlay .c-one ul li:first-child {
+        margin-left: 10px;
+    }
+    footer .overlay .f-down h1::before {
+
+        display: none;
+    }
+}
+@media (min-width:768px)and (max-width:991px){
+    .navbar .baka {
+        width: 35%;
+    }
+    .navbar .baka img {
+        width: 100%;
+    }
+    .navbar-toggler{
+        background: #e23e38;
+        transition: .4s;
+    }
+    .navbar-light .navbar-toggler {
+        color: #000;
+        border-color: rgba(0,0,0,.1);
+    }
+    .navbar-toggler:hover{
+        background: #f1f1f1;
+    }
+    nav ul{
+        background: #e23e38;
+    }
+    #banner-part .banner-slider .banner .overlay p {
+        width: auto;
+    }
+    #about-part .left {
+        margin-bottom: 20px;
+    }
+    #about-part .right p {
+        width: auto;
+    }
+    #about-part .right .p2 {
+        width: auto;
+    }
+    #testimonial-part .overlay .slider .t-top .img {
+        width: 40%;
+    }
+    #testimonial-part .overlay .slider .t-top .img img {
+        width: 100%;
+    }
+    #testimonial-part .overlay .slider .t-top .name {
+        width: 50%;
+        text-align: center;
+    }
+    
+    #counter-part .overlay .item h1 {
+       font-size: 30px;
+    }
+    #counter-part .overlay .item p {
+        font-size: 14px;
+    }
+    #class-part .colorful-tab-wrapper .colorful-tab-content .one {
+        padding: 0;
+    }
+    footer .overlay .f-down h1::before {
+      display: none;
+    }
+    #gallery-part {
+      margin-top: 20px;
+    }
+    #about-part {
+        margin-top: 20px;
+    }
+    #team-part {
+        margin-top: 20px;
+    }
+    #testimonial-part {
+        margin-top: 20px;
+      
+    }
+    #membership-part {
+        margin-top: 20px;
+    }
+    #class-part {
+        margin-top: 20px;
+    }
+    #slider-part {
+        margin-top: 20px;
+    }
+    footer {
+        margin-top: 20px;
+    }
+    footer .overlay .c-one .left {
+        width: 50%;
+    }
+    footer .overlay .c-one .right {
+        width: 50%;
+    }
+    footer .overlay .c-one .left-one {
+        width: 20%;
+    }
+    footer .overlay .c-one ul li:first-child {
+        margin-left: 10px;
+    }
+    footer .overlay .f-down h1::before {
+        display: none;
+    }
+}

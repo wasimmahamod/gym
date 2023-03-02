@@ -1,0 +1,89 @@
+#membership-part{
+    margin-top: 70px;
+    .m-left{
+        text-align: center;
+        .left-top{
+            width: 100%;
+            background:#dddddd;
+            text-align: center;
+            padding:20px 0;;
+            transition: .4s;
+            h2{
+                font-size: 16px;
+                font-family: 'Oswald', sans-serif;
+                font-weight: 700;
+                text-transform: uppercase;
+                color:#222222;
+            
+            }
+        }
+        .left-center{
+            width: 100%;
+        }
+        .img{
+            width: 100%;
+            position: relative;
+            img{
+                display: block;
+                width: 100%;
+            }
+            .overlay{
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0,.7);
+                position: absolute;
+                top:0;
+                left: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                h3{
+                    font-size: 29px;
+                    font-weight: 500;
+                    font-family: 'Oswald', sans-serif;
+                    color:#ffffff;
+                }
+            }
+        }
+        .left-buttom{
+            width: 100%;
+            background: #f1f1f1;
+            text-align: center;
+            ul{
+                padding-top: 10px;
+                &:first-child{
+                    padding-top: 30px;
+                }
+                li{
+                    padding-bottom: 30px;
+                    font-family: 'Open Sans', sans-serif;
+                    font-size: 14px;
+                    font-weight: 400;
+                    color:#444444
+                 
+                 }
+            }
+        }
+        &:hover .left-top{
+            background: #e23e38;
+        }
+        &:hover .left-top h2{
+            color:#ffffff;
+        }
+        &:hover h4{
+            background: #e23e38;
+            color:#ffffff
+        }
+
+        h4{
+            background: #dddddd;
+            padding: 10px 0;
+            text-transform: uppercase;
+            font-family: 'Oswald', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            transition: .4s;
+        
+        }
+    }
+}
